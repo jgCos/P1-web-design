@@ -1,0 +1,70 @@
+
+body{
+    background-image: url(img/infamous_eagle.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h2{
+    color: white;
+}
+
+
+div#form-aluno{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+div#form-aluno input[type=text]{ 
+    width: 100%; 
+    margin: 10px 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 2px solid rgb(255, 234, 0);
+}
+
+
+
+.login{
+    cursor: pointer;
+    padding: 7px;
+    background-color: #ffe600;
+    border: 1px solid #ffe600;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+.login a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+
+div#form-aluno form{
+text-align: left;
+font-size: 20px;
+background-color: #383838;
+color: #ffffff;
+border:none;
+border-radius: 10px;
+padding: 5px;
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #ffe600;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 2px solid rgb(255, 234, 0);
+}
+

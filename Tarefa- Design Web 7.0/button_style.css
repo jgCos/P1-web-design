@@ -1,0 +1,268 @@
+/* <PRIMEIRA PARTE> */
+/* Tela de fundo.____________________________________________________________*/
+
+
+/* <SEGUNDA PARTE> */
+/* Produtos.______________________________________________________________________________________ */
+
+
+/* botão de compra01.__________________________________________*/
+/* (Botão1)._____________*/
+.bt_comprar1{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: -10px;
+
+}
+
+.bt_comprar1{
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.bt_comprar1:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}
+
+/* (Botão2)._____________*/
+.bt_comprar2{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: -10px;
+
+}
+
+.bt_comprar2{
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.bt_comprar2:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}
+
+
+/* (Botão3)._____________*/
+.bt_comprar3{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+
+    margin-top: -10px;
+    margin-right: 20px;
+
+}
+
+.bt_comprar3{
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.bt_comprar3:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}
+
+
+
+/* botão de compra02.__________________________________________*/
+/* (Botão4)._____________*/
+.bt_comprar4{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: -10px;
+
+}
+
+.bt_comprar4{
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.bt_comprar4:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}
+
+/* (Botão5)._____________*/
+.bt_comprar5{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: -10px;
+
+}
+
+.bt_comprar5{
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.bt_comprar5:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}
+
+/* (Botão6)._____________*/
+.bt_comprar6{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: -10px;
+
+}
+
+.bt_comprar6{
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.bt_comprar6:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}
+
+/* botão de compra03.__________________________________________*/
+/* (Botão7)._____________*/
+.bt_comprar7{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: -10px;
+    margin-right: 40px;
+
+    
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.bt_comprar7:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}
+
+
+/* (Botão8)._____________*/
+.bt_comprar8{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: -10px;
+    margin-right: 40px;
+
+    
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.bt_comprar8:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}
+
+/* (Botão9)._____________*/
+.bt_comprar9{
+
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.5;
+    margin-top: -10px;
+    margin-right: 40px;
+
+    
+    border: solid 2px #e7d000;
+    border-radius: 10px;
+    color: #e7d000;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.bt_comprar9:hover{
+    background-color: #e7d000;
+    color: white;
+    transform: scale(1.2)
+}

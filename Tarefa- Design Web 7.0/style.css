@@ -1,0 +1,449 @@
+/* <PRIMEIRA PARTE> */
+/* Tela de fundo.____________________________________________________________*/
+
+
+/* display: inline-block (tira a linha de separação e deixar na frente, exemplo: <p>) */
+
+
+body{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a0a00771-e86f-462c-b32a-c8a70da552b1/d6d5uc8-be33b8f0-68b2-4210-8160-bf301a945dd5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EwYTAwNzcxLWU4NmYtNDYyYy1iMzJhLWM4YTcwZGE1NTJiMVwvZDZkNXVjOC1iZTMzYjhmMC02OGIyLTQyMTAtODE2MC1iZjMwMWE5NDVkZDUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Y7iQn48c_ldjz6y6YTW-vDONgOn3aiU4_5KMR_jwbCI);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Imagem de Ícone.____________________________________*/
+.img0{
+    width: 3%;
+    height: 5%;
+}
+
+
+
+/* Nome da loja (ao lado do Ícone) */
+.NomeLoja{
+
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    
+    color: rgb(0, 0, 0);
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+
+/* Barra de informações */
+.barra01{
+    padding: 7px;
+    background-color: #e7d000;
+    border: 1px solid #e7d000;
+    border: none;
+    border-radius: 3px;
+    line-height: 2.0;
+    margin: 2px;
+    margin-top: -20px;
+}
+
+
+
+/* Opções da barra de informações */
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+
+/* Gifs.___________________________________________________ */
+.gif1{
+    position: absolute;
+    width: 30%;
+    left: 1%;
+}
+
+.gif2{
+    position: absolute;
+    width: 30%;
+    right: 1%;
+}
+
+.gif3{
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    bottom: -2%;
+    
+}
+
+
+
+
+/* Textos abaixo do gif.____________________________________*/
+.texto1 p{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-top: 18%;
+    color: white;
+    left: 5%;
+}
+
+.texto2 p{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-top: 18%;
+    right: 5%;
+    color: white;
+}
+
+.texto3 p{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-top: 45%;
+    left: 37%;
+    color: white;
+}
+
+
+
+/* <SEGUNDA PARTE> */
+/* Produtos.______________________________________________________________________________________ */
+
+
+/* Barra de produtos */
+.barra02{
+    padding: 5px;
+    background-color: #e7d000;
+    border: 1px solid #e7d000;
+    border: none;
+    border-radius: 3px;
+    line-height: 2.0;
+    margin-top: 50%;
+}
+
+
+/* "Produtos" */
+.barra02 p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 5px;
+    margin-left: 43%;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+
+/* Indica o tipo de produto (01)._______________ */
+.tipo_produto01{
+    width: 15%;
+    height: 10%;
+    padding: 5px;
+    background-color: #e7d000;
+    border: 1px solid #e7d000;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.tipo_produto01 p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    margin-left: 2%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+
+/* Imagens de produto01*/
+.img1{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    left: 1%;
+}
+
+.img2{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    left: 38%;
+}
+
+.img3{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    right: 1%;
+}
+
+
+/* Textos das imagens de produto(01)._____*/
+.info_imagem01{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 26%;
+    
+    margin-left: 20px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.info_imagem02{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 26%;
+
+    margin-left: 40%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.info_imagem03{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 26%;
+
+    margin-left: 79%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+/* botão de compra01.__________________________________________*/
+
+
+/* Indica o tipo de produto (02)._______________________*/
+.tipo_produto02{
+    width: 15%;
+    height: 10%;
+    padding: 5px;
+    background-color: #e7d000;
+    border: 1px solid #e7d000;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.0;
+    margin-top: 42%;
+    margin-bottom: 1%;
+}
+
+.tipo_produto02 p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    margin-left: 2%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+/* Imagens de produto02*/
+.img4{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    left: 1%;
+}
+
+.img5{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    left: 38%;
+}
+
+.img6{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    right: 1%;
+}
+
+/* Textos das imagens de produto(02).______________________*/
+
+.info_imagem04{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 19%;
+    
+    margin-left: 20px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.info_imagem05{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 19%;
+
+    margin-left: 38%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.info_imagem06{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 19%;
+
+    margin-left: 73%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+/* botão de compra02.__________________________________________*/
+
+/* Indica o tipo de produto (03)._______________________*/
+.tipo_produto03{
+    width: 15%;
+    height: 10%;
+    padding: 5px;
+    background-color: #e7d000;
+    border: 1px solid #e7d000;
+    border: none;
+    border-radius: 3px;
+    line-height: 1.0;
+    margin-top: 38%;
+    margin-bottom: 1%;
+}
+
+.tipo_produto03 p{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    margin-left: 2%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+/* Imagens de produto03*/
+.img7{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    left: 1%;
+}
+
+.img8{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    left: 38%;
+}
+
+.img9{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    right: 1%;
+}
+
+/* Textos das imagens de produto(03).______________________*/
+
+.info_imagem07{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 24%;
+    
+    margin-left: 7%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.info_imagem08{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 24%;
+
+    margin-left: 43%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.info_imagem09{
+    
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 24%;
+
+    margin-left: 80%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+
+/* botão de compra03.__________________________________________*/
+
+
+
+
+
+
+

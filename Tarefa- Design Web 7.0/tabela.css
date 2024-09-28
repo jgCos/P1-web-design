@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(img/infamous_eagle.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+#tabela-alunos
+{width: 100%;}
+
+.tabela-nome
+{max-width: 200px;}
+
+.tabela-preco
+{max-width: 10px;}
+
+
+
+table,th,td
+{ 
+    border-collapse: collapse;
+    border: 2px solid rgb(255, 255, 255);
+    /* border-radius: 10px; */
+    border-style: double;
+}
+
+th,td
+{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(199, 199, 199);
+padding: 10px;
+}
+
+/* Alinha texto no centro */
+td{text-align: center;}
+
+header{
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    color: #ffffffff;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+
+body{ font-family: Arial, Helvetica, sans-serif; }
+
+
+a.button{
+    padding: 7px;
+    background-color: #eeff00;
+    border: 1px solid #eeff00;
+    color: #000000;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    line-height: 2.0;
+    margin: 2px;
+}
+

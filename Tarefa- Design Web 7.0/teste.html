@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Informações</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button_style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap'); </style> <!-- Fonte especial -->
+    <style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidepanel{
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 220px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+</style>
+
+</head>
+<body>
+
+
+<!-- PRIMEIRA PARTE.___________________________________________________________________________ -->
+<div class="area01">
+    <a id="home"></a>
+
+<!-- (Barra de informações) -->
+<div class="barra01">   
+    <tr>
+        <th> <img class="img0" src="img/img_infamous03.png" alt=""></th>
+        <th> <a class="NomeLoja" href="#"><strong>Condut Play</strong></a></th>
+        <th> <a href="#"><strong>Home</strong></a></th>
+        <th> <a href="tabela.html"><strong>Info</strong></a></th> <!-- TABELA  -->
+        <th> <a href="#"><strong>Others</strong></a></th>
+    </tr>
+
+
+
+</div>
+
+<!-- PAINEL DE OPÇÕES.___________________________________________________________________________ -->
+
+
+<div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#home">Home</a>
+    <a href="#camisetas">Camisetas</a>
+    <a href="#tenis">Tênis</a>
+    <a href="#jogos">jogos</a>
+  </div>
+  
+<button class="openbtn" onclick="openNav()">☰ </button>
+<br>
+<br>
+
+
+<!-- (Gifs de exibição)-->
+<div class="gifs">
+<tr>
+    <th><img class="gif1" src="img/infamous01.gif" alt=""></th>
+    <th><img class="gif2" src="img/infamous02.gif" alt=""></th>
+    <th><img class="gif3" src="img/infamous03.gif" alt=""></th>
+</tr>
+
+
+<!-- Texto de gif1 -->
+<div class="texto1">
+<p><strong> Resumo:<br>Cercados por uma sociedade que os teme, os super-humanos são<br>
+    impiedosamente caçados e presos pelo Departamento de<br>
+    Proteção Unificada. Entre na Seattle sitiada como Delsin Rowe,<br>
+    que recentemente descobriu seu poder super-humano e agora<br>
+    é capaz de combater o opressivo DUP.</strong></p>
+</div>
+
+
+<!-- Texto de gif2 -->
+<div class="texto2">
+    <p><strong> Jogabilidade:<br>Aproveite o seu poder enquanto escolhe como usará
+        incríveis<br>habilidades até o limite e testemunhe as
+        consequências das<br>suas ações à medida que elas
+        afetam a cidade<br>e as pessoas ao seu redor.</strong></p>
+    </div>
+
+
+<!-- Texto de gif3 -->
+<div class="texto3">
+    <p><strong> É um bom momento para desfrutar e escolher alguns de nossos produtos<br>
+    baseado neste jogo digital como algumas roupas, calçados e tambem próprio jogo e<br>
+    seus antecessores como Infamous 1 e 2, e seu sucessor Infamous First Light</strong></p>
+    </div>
+
+</div>
+</div><!-- FINAL (AREA01) -->
+
+
+<!-- SEGUNDA PARTE.___________________________________________________________________________ -->
+<!-- Barra de produtos -->
+<div class="area02">
+
+<div class="barra02">
+  <p><strong>Produtos</strong></p>
+</div>
+<br>
+
+
+<!-- Tipo do produto01._______________________________________ -->
+<div class="tipo_produto01">
+    <p id="camisetas"><strong>Camisetas</strong></p>
+</div>
+<br>
+
+<!-- Primeira classe de produtos(01)._________  -->
+<div class="produto01">
+    
+   <img class="img1" src="produto/infamousSecond-camisa01.png" alt="">
+   <img class="img2" src="produto/infamousSecond-camisa02.png" alt="">
+   <img class="img3" src="produto/infamousSecond-camisa03.png" alt="">
+    
+  
+<div class="info_imagem01">
+    <p><strong>Camisa preta e branca / Tamanho: M</strong><br>( Guerra De Águias )<br><strong>Valor: R$82,99</strong></p>
+    <button class="bt_comprar1"><strong>Comprar</strong></button>
+</div>
+
+<div class="info_imagem02">
+    <p><strong>Camisa preta / Tamanho: GG</strong><br>( Infamous Second Son )<br><strong>Valor: R$112,45</strong></p>
+    <button class="bt_comprar2"><strong>Comprar</strong></button>
+</div>
+
+<div class="info_imagem03">
+    <p><strong>Camisa preta / Tamanho: G</strong><br>( Karma )<br><strong>Valor: R$95,70</strong></p>
+    <a href="https://www.playstation.com/pt-br/"><button class="bt_comprar3"><strong>Comprar</strong></button></a> <!-- Redirecionamento de site -->
+</div>
+</div>
+<br>
+
+
+<!-- Tipo do produto02.__________________________________________ -->
+<div class="tipo_produto02">
+    <p id="tenis"><strong>Tênis</strong></p>
+</div>
+<br>
+
+<!-- Segunda classe de produtos(02)._________  -->
+<div class="produto02">
+
+
+    <img class="img4" src="produto/infamousSecond_tenis01.png" alt="">
+    <img class="img5" src="produto/infamousSecond_tenis02.png" alt="">
+    <img class="img6" src="produto/infamousSecond_tenis03.png" alt="">
+
+
+    <div class="info_imagem04">
+        <p><strong>Tênis preto e amarelo / Tamanho: 39/40</strong><br>(Infamous Second Son)<br><strong>Valor: R$78,50</strong></p>
+        <button class="bt_comprar4"><strong>Comprar</strong></button>
+    </div>
+    
+    <div class="info_imagem05">
+        <p><strong>Tênis preto e branco / Tamanho: 36/37</strong><br>(White Scar)<br><strong>Valor: R$55,99</strong></p>
+        <button class="bt_comprar5"><strong>Comprar</strong></button>
+    </div>
+    
+    <div class="info_imagem06">
+        <p><strong>Tênis preto e vermelho / Tamanho: 37/38</strong><br>(Three Red Line)<br><strong>Valor: R$62,20</strong></p>
+        <a href="#"><button class="bt_comprar6"><strong>Comprar</strong></button></a> <!-- Redirecionamento de site -->
+</div>
+</div>
+<br>
+
+
+<!-- Tipo do produto03.____________________________________________ -->
+<div class="tipo_produto03">
+    <p id="jogos"><strong>Jogos</strong></p>
+</div>
+<br>
+
+<!-- Primeira classe de produtos(03)._________  -->
+<div class="produto03">
+    
+   <img class="img7" src="produto/infamousGame_Original01.png" alt="">
+   <img class="img8" src="produto/infamousGame_SecondSon02.png" alt="">
+   <img class="img9" src="produto/infamousGame_FirstLight03.png" alt="">
+    
+  
+<div class="info_imagem07">
+    <p><strong>Infamous 1 e 2</strong><br>(PS3 Gold edition )<br><strong>Valor: R$85,50</strong></p>
+    <a href="https://www.playstation.com/pt-br/"><button class="bt_comprar7"><strong>Comprar</strong></button></a>
+</div>
+
+<div class="info_imagem08">
+    <p><strong>Infamous Second Son</strong><br>(PS4 original)<br><strong>Valor: R$92,45</strong></p>
+    <a href="https://www.playstation.com/pt-br/games/infamous-second-son/"><button class="bt_comprar8"><strong>Comprar</strong></button></a>
+</div>
+
+<div class="info_imagem09">
+    <p><strong>Infamous First Light</strong><br>(PS4 original)<br><strong>Valor: R$58,90</strong></p>
+    <a href="https://store.playstation.com/pt-br/product/UP9000-CUSA00575_00-FIRSTLIGHTSHIP00"><button class="bt_comprar9"><strong>Comprar</strong></button></a> <!-- Redirecionamento de site -->
+</div>
+</div>
+<br>
+
+
+</div><!-- FINAL (AREA02) -->
+
+
+
+
+<!-- CÓDIGO PO PAINEL DE OPÇÕES.______________________________________________ -->
+<script>
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "200px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    }
+    </script>
+
+</body>
+</html>
+
